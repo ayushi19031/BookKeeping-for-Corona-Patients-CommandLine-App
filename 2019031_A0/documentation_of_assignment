@@ -1,0 +1,19 @@
+//**
+This is an interactive JAVA GUI Application which finds and displays total number of of active
+ cases on a particular date and number of recovered cases on a particular date in each category (tower) along with the patient details with their recovery dates.All information of patients is stored in the class named as Patient.
+ For the tower category checkbox has been used and multiple boxes can be ticked at once.
+
+ Valid Date Format: DD/MM/YY and should be between 1st April 2020 to 30th August 2020.
+
+ Active Cases on a particular Date will be those cases which were reported withing 21 days
+ of the given date. For example, for 23nd April 2020 ; 2nd April 2020, 16th April 2020 etc will be considered as Active Cases.
+
+ Recovered Cases are those cases which were reported more than 21 days before the given date.
+ For example, for 23rd April 2020 ; 1st April 2020 person will be considered in the recovered people list.
+
+ The Input: User will have to enter a valid date and click the boxes of the towers whose info is needed
+ Output: Number of Active Cases, Number of recovered cases, Active and recovered Patients table with list of their recovery dates.
+
+
+
+
